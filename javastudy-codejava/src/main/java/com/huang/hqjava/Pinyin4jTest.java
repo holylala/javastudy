@@ -22,7 +22,7 @@ import net.sourceforge.pinyin4j.format.exception.BadHanyuPinyinOutputFormatCombi
 public class Pinyin4jTest {
 
     /**
-     * 字符串集合转换字符串(逗号分隔) 修改from公司 再次修改 ok
+     * 字符串集合转换字符串(逗号分隔) 修改from公司 再次修改 ok dfefe
      *
      * @param stringSet
      * @return

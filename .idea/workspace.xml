@@ -50,11 +50,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Pinyin4jTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Pinyin4jTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/javastudy-codejava/src/main/java/com/huang/hqjava/Pinyin4jTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7605634">
-              <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -62,11 +62,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SortWithChinese.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SortWithChinese.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/javastudy-codejava/src/main/java/com/huang/hqjava/SortWithChinese.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.40442654">
+              <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -179,8 +179,8 @@
         <option value="$PROJECT_DIR$/javastudy-codejava/src/main/java/com/huang/hqjava/MemoryTest.java" />
         <option value="$PROJECT_DIR$/../springmvcpro/src/main/webapp/WEB-INF/jsps/success.jsp" />
         <option value="$PROJECT_DIR$/../springmvcpro/src/main/java/com/holylala/springmvcpro/controller/CourseController.java" />
-        <option value="$PROJECT_DIR$/javastudy-codejava/src/main/java/com/huang/hqjava/SortWithChinese.java" />
         <option value="$PROJECT_DIR$/javastudy-codejava/src/main/java/com/huang/hqjava/Pinyin4jTest.java" />
+        <option value="$PROJECT_DIR$/javastudy-codejava/src/main/java/com/huang/hqjava/SortWithChinese.java" />
       </list>
     </option>
   </component>
@@ -1016,7 +1016,7 @@
       <workItem from="1467789179047" duration="5106000" />
       <workItem from="1468292275729" duration="13536000" />
       <workItem from="1468477374046" duration="2646000" />
-      <workItem from="1468821578126" duration="8325000" />
+      <workItem from="1468821578126" duration="10627000" />
     </task>
     <task id="LOCAL-00001" summary="修改">
       <created>1468829547945</created>
@@ -1030,11 +1030,17 @@
       <option name="project" value="LOCAL" />
       <updated>1468834555549</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="再次修改OK的">
+      <created>1468834876237</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1468834876237</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="159549000" />
+    <option name="totallyTimeSpent" value="161851000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1482,14 +1488,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javastudy-codejava/src/main/java/com/huang/hqjava/SortWithChinese.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/javastudy-codejava/src/main/java/com/huang/hqjava/Pinyin4jTest1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1500,11 +1498,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/javastudy-codejava/src/main/java/com/huang/hqjava/Pinyin4jTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7605634">
-          <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javastudy-codejava/src/main/java/com/huang/hqjava/SortWithChinese.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.40442654">
+          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
