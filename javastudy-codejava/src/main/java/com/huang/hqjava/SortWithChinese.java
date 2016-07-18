@@ -16,7 +16,7 @@ import java.util.Locale;
 public class SortWithChinese {
 
     /**
-     *  李四(L)
+     *  李四(L)  ok
         王五(W)
         张三(Z)
      * @param args
