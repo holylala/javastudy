@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-3.2.xsd 
+
+
+
+
+    http://www.springframework.org/schema/aop   
+    http://www.springframework.org/schema/aop/spring-aop-3.2.xsd">
+	
+	<bean id="watcher" class="com.huang.aop.Watcher" ></bean>
+	<bean id="player" class="com.huang.aop.Player" ></bean>
+	
+	<bean id="getminder" class="com.huang.aop.GetMinder" ></bean>
+	<bean id="girl" class="com.huang.aop.Girl" ></bean>
+	
+	<aop:config>
+	
+		<aop:aspect ref="watcher" >
+			
+			<aop:pointcut id="playercut" expression="execution(* com.huang.aop.Player.play(..))" />
+			
+			<!--  
+			<aop:before          pointcut-ref="playercut" method="takeSeats" />
+			<aop:before          pointcut-ref="playercut" method="turnOffThePhone" />
+			<aop:after-returning pointcut-ref="playercut" method="sayGood" />
+			<aop:after-throwing  pointcut-ref="playercut" method="sayBad" />
+			-->
+			<!-- 环绕通知 -->
+			<aop:around pointcut-ref="playercut" method="watch" />
+		</aop:aspect>
+		
+		<aop:aspect ref="getminder">
+		
+			<aop:pointcut id="thinking" expression="execution(* com.huang.aop.Thinker.thinkSometing(String)) and args(mindinfos) " />
+			<aop:before   pointcut-ref="thinking" method="getOnesMind" arg-names="mindinfos" />
+		
+		</aop:aspect>
+		
+	</aop:config>
+	
+</beans>

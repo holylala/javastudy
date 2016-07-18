@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:p="http://www.springframework.org/schema/p"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd"
+        default-init-method= "init"
+        default-destroy-method= "destroy"
+ >
+    
+    <!-- 使用默认的构造函数创建bean -->   
+	<bean id="july" class="com.huang.ioc.Juggler"></bean>
+	
+	 <!-- 使用带参的构造函数创建bean -->   
+	<bean id="huang" class="com.huang.ioc.Juggler">
+		<constructor-arg value="15" />
+ 	</bean>
+ 	
+ 	<bean id="sonnet29" class="com.huang.ioc.Sonnet29" ></bean>
+ 	<!-- 使用带参的构造函数创建bean,并包含一个bean的引用 -->
+ 	<bean id="peticJuggler" class="com.huang.ioc.PeticJuggler" >
+ 		<constructor-arg value="25" />
+ 		<constructor-arg ref="sonnet29" />
+ 	</bean>
+ 	
+ 	<!-- 单例实例的创建 通过工厂方法 -->
+ 	<bean id="theStage" class="com.huang.ioc.Stage" factory-method = "getInstance" ></bean>
+ 	
+ 	<!-- prototype ：每次都返回不同的实例  singleton : 每次都返回同一个实例  request,session,global session-->
+ 	<bean id="ticket" class="com.huang.ioc.Ticket" scope="prototype" ></bean>
+ 	
+ 	<!-- 调用初始后执行的方法 和 销毁后执行的方法  如果定义了init-method destroy-method 则默认的init destroy不执行 -->
+ 	<bean id="auditorium" class="com.huang.ioc.Auditorium" init-method="turnOnLights" destroy-method="turnOffLights" ></bean>
+	
+	<!-- 通过setter方法 设置bean的属性值 面向接口编程  Jita bean可复用  -->
+	<bean id="jita"  class="com.huang.ioc.Jita" ></bean>
+	<bean id="kenny" class="com.huang.ioc.Instrumentalist" >
+		<property name="song" value=" I Love You" ></property>
+		<property name="instrument" ref="jita" ></property>
+	</bean>
+	<!-- 通过setter方法 设置bean的属性值 Jita bean不可复用  -->
+	<bean id="kenny1" class="com.huang.ioc.Instrumentalist" >
+		<property name="song" value=" I Love You1" ></property>
+		<property name="instrument" >
+			<bean class="com.huang.ioc.Jita" ></bean>
+		</property>
+	</bean>
+	<!-- 使用p命名空间设置属性值 -->
+	<bean id="kenny2" class="com.huang.ioc.Instrumentalist" p:song = " I Love You2" p:instrument-ref = "jita">
+	</bean>
+	
+	<bean id="piano"  class="com.huang.ioc.Piano" ></bean>
+	<!-- 集合属性的设值  还可以装配property的值  null值 -->
+	<bean id="onemanband" class="com.huang.ioc.OneManBand" >
+		<property name="instruments">
+			<list>
+				<ref bean="jita" />
+				<ref bean="piano" />
+			</list>
+		</property>
+		<property name="instrumentsmap" >
+			<map>
+				<entry key="吉他" value-ref="jita"  />
+				<entry key="钢琴" value-ref="piano"  />
+			</map>
+		</property>
+	</bean>
+	
+	
+	<!-- SpEl 表达式   1.基本类型的设置  
+	                 2.通过bean id 设置到对应的属性
+	                 3.获得一个bean中的属性并赋值 如 #{jita.name}
+	                 4.获得一个bean中的方法的返回值并赋值 如 #{jita.getSong()} 
+	                  	还可以根据返回值类型调用对应的 方法 如 #{jita.getSong().trim()}
+	                  	避免返回值的写法  如 #{jita.getSong()?.trim()}
+	                 5.调用静态类和静态方法  #{T(java.lang.Math).PI} #{T(java.lang.Math).random()}
+	                 6.支持基本的计算  #{T(java.lang.Math).PI - 1}
+	                 7.访问集合中的元素
+	                 
+	                 <util:list id="cities">
+	                 	<bean class="xxxx.City" p:name="" p:location="" />
+	                 	<bean class="xxxx.City" p:name="" p:location=""   />
+	                 </util:list>
+	                 #{cities[1]}
+	                 -->
+	
+	<bean id="speltest" class="com.huang.ioc.SpElTest" >
+		<property name="strvalue" value="#{'This is a str'}"></property>
+		<property name="intvalue" value="#{6}"></property>
+		<property name="doublevalue" value="#{6.6666}"></property>
+		<property name="boolvalue" value="#{true}"></property>
+		<property name="instrument" value="#{jita}"></property>
+	</bean>
+	
+ </beans>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:context="http://www.springframework.org/schema/context" 
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd
+        "
+ >
+  
+  <!-- 会自动扫描 base package包下的 @Compont标注的类 -->
+  <context:component-scan   base-package="com.huang.autoiocmore" >
+  
+  	<context:include-filter type="assignable" expression="com.huang.autoiocmore.Animal" />
+  	<!-- 实现Toy接口的实现类 不会被当做Spring bean处理  哪怕加了 @Component注解 -->
+  	<context:exclude-filter type="assignable" expression="com.huang.autoiocmore.Toy" />
+  	
+   </context:component-scan>
+	
+ </beans>
