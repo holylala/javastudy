@@ -4,7 +4,9 @@
     <entry_points version="2.0" />
   </component>
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/../seedskill" />
     <file type="web" url="file://$PROJECT_DIR$/../springmvcpro" />
+    <file type="web" url="file://$PROJECT_DIR$/../toumira_product/toumira-product-openapi" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -13,6 +15,11 @@
         <option value="$PROJECT_DIR$/javastudy-datamodel/pom.xml" />
         <option value="$PROJECT_DIR$/mybatis-3-mybatis-3.2.7/pom.xml" />
         <option value="$PROJECT_DIR$/../springmvcpro/pom.xml" />
+        <option value="$PROJECT_DIR$/../toumira_product/pom.xml" />
+        <option value="$PROJECT_DIR$/../iframework-iop/pom.xml" />
+        <option value="$PROJECT_DIR$/../toumi-cache/pom.xml" />
+        <option value="$PROJECT_DIR$/../toumi-openapi-client-sdk/pom.xml" />
+        <option value="$PROJECT_DIR$/../seedskill/pom.xml" />
       </list>
     </option>
   </component>
@@ -26,7 +33,10 @@
     <ConfirmationsSetting value="0" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" default="false" assert-keyword="true" jdk-15="true">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" default="false" assert-keyword="true" jdk-15="true" project-jdk-name="1.7" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="SvnBranchConfigurationManager">
+    <option name="mySupportsUserInfoFilter" value="true" />
   </component>
 </project>

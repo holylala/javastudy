@@ -50,16 +50,59 @@
         <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="seedskill" />
         <module name="springmvcpro" />
+      </profile>
+      <profile default="false" name="Annotation profile for toumira-product-orm" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="toumira-product-orm" />
+      </profile>
+      <profile default="false" name="Annotation profile for toumira-client-sdk" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="toumira-client-sdk" />
+      </profile>
+      <profile default="false" name="Annotation profile for toumi-cache" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="toumi-cache" />
+      </profile>
+      <profile default="false" name="Annotation profile for iframework-iop" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="iframework-iop" />
+      </profile>
+      <profile default="false" name="Annotation profile for toumira-product-openapi" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="toumira-product-openapi" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="iframework-iop" target="1.6" />
       <module name="javastudy-codejava" target="1.7" />
       <module name="javastudy-datamodel" target="1.7" />
       <module name="javastudy-parent" target="1.7" />
       <module name="javastudy-springaction" target="1.7" />
       <module name="mybatis" target="1.6" />
+      <module name="seedskill" target="1.7" />
       <module name="springmvcpro" target="1.7" />
+      <module name="toumi-cache" target="1.6" />
+      <module name="toumira-client-sdk" target="1.6" />
+      <module name="toumira-product-openapi" target="1.6" />
+      <module name="toumira-product-orm" target="1.6" />
+      <module name="toumira_product" target="1.6" />
     </bytecodeTargetLevel>
   </component>
 </project>

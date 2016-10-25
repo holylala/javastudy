@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/../iframework-iop" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/javastudy-codejava" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/javastudy-datamodel" charset="GBK" />
     <file url="file://$PROJECT_DIR$/javastudy-parent" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/javastudy-springaction" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mybatis-3-mybatis-3.2.7" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../seedskill" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../springmvcpro" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../toumi-cache" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../toumi-openapi-client-sdk" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../toumira_product" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../toumira_product/toumira-product-openapi" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../toumira_product/toumira-product-orm" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
