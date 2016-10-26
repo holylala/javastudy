@@ -3,16 +3,9 @@
  */
 package com.huang.work.desinmodel.proxy;
 
-/**   
- * @Title: Test.java 
- * @Package com.huang.work.desinmodel.proxy 
- * @Description: TODO
- * @Copyright£º Copyright(c)2015
- * @Company£ºBjrun 
- * @author zhenqiong zhenqiong@run.com   
- * @date 2015-11-25 ÏÂÎç03:16:29 
- * @version V1.0   
- */
+import java.lang.reflect.Proxy;
+
+
 public class Test {
 
 	/** 
@@ -23,9 +16,21 @@ public class Test {
 	 * @throws 
 	 */
 	public static void main(String[] args) {
-		
+
+		createJdkProxy();
+	}
+
+	public static void createJdkProxy() {
+		IDBQuery jdkProxy = (IDBQuery) Proxy.newProxyInstance(
+				ClassLoader.getSystemClassLoader(),
+				new Class[] {IDBQuery.class},
+				new JdkDbQueryHandler()
+				);
+		jdkProxy.request();
+	}
+
+	public static void sampleProxy() {
 		IDBQuery dbquery = new DBQueryProxy();
 		dbquery.request();
 	}
-
 }

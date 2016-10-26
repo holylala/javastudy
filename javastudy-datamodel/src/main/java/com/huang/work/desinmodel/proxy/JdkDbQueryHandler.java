@@ -6,19 +6,12 @@ package com.huang.work.desinmodel.proxy;
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 
-/**   
- * @Title: JdkDbQueryHandler.java 
- * @Package com.huang.work.desinmodel.proxy 
- * @Description: JDK×Ô´øµÄ¶¯Ì¬´úÀí
- * @Copyright£º Copyright(c)2015
- * @Company£ºBjrun 
- * @author zhenqiong zhenqiong@run.com   
- * @date 2015-11-25 ÏÂÎç03:41:34 
- * @version V1.0   
+/**
+ * jdkè‡ªå¸¦çš„åŠ¨æ€ä»£ç† åŠŸèƒ½ç›¸å¯¹å¼±
  */
 public class JdkDbQueryHandler implements InvocationHandler {
 	
-	IDBQuery real; //Ö÷Ìâ½Ó¿Ú
+	IDBQuery real; //ä¸»é¢˜æ¥å£
 	/*
 	 * <p>Title: invoke</p> 
 	 * <p>Description: </p> 
