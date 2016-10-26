@@ -6,17 +6,17 @@ package com.huang.work.desinmodel.proxy;
 /**   
  * @Title: DBQuery.java 
  * @Package com.huang.work.desinmodel.proxy 
- * @Description: TODO
- * @Copyright£º Copyright(c)2015
- * @Company£ºBjrun 
+ * @Description: çœŸå®ä¸»é¢˜ å®é™…å¤„ç†ç›¸å…³ä¸šåŠ¡çš„ç±»
+ * @Copyrightï¼š Copyright(c)2015
+ * @Companyï¼šBjrun 
  * @author zhenqiong zhenqiong@run.com   
- * @date 2015-11-25 ÏÂÎç03:11:13 
+ * @date 2015-11-25 ä¸‹åˆ03:11:13 
  * @version V1.0   
  */
 public class DBQuery implements IDBQuery {
 	
-	public DBQuery() { //±È½ÏºÄÊ±µÄ²Ù×÷
-		System.out.println("±È½ÏºÄÊ±µÄ²Ù×÷.....");
+	public DBQuery() { //æ¯”è¾ƒè€—æ—¶çš„æ“ä½œ
+		System.out.println("æ¯”è¾ƒè€—æ—¶çš„æ“ä½œ.....");
 		
 		try {
 			Thread.sleep(1000);
@@ -34,8 +34,8 @@ public class DBQuery implements IDBQuery {
 	 */
 	@Override
 	public String request() {
-		System.out.println("DBQuery ÖØÁ¿¼¶¶ÔÏó ÕæÕıµÄÖ÷Ìâ.....");
-		return "DBQuery ÖØÁ¿¼¶¶ÔÏó ÕæÕıµÄÖ÷Ìâ.....";
+		System.out.println("DBQuery é‡é‡çº§å¯¹è±¡ çœŸæ­£çš„ä¸»é¢˜.....");
+		return "DBQuery é‡é‡çº§å¯¹è±¡ çœŸæ­£çš„ä¸»é¢˜.....";
 	}
 
 }
