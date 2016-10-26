@@ -13,14 +13,15 @@
       <list>
         <option value="$PROJECT_DIR$/javastudy-parent/pom.xml" />
         <option value="$PROJECT_DIR$/javastudy-datamodel/pom.xml" />
-        <option value="$PROJECT_DIR$/mybatis-3-mybatis-3.2.7/pom.xml" />
-        <option value="$PROJECT_DIR$/../springmvcpro/pom.xml" />
         <option value="$PROJECT_DIR$/../toumira_product/pom.xml" />
-        <option value="$PROJECT_DIR$/../iframework-iop/pom.xml" />
-        <option value="$PROJECT_DIR$/../toumi-cache/pom.xml" />
-        <option value="$PROJECT_DIR$/../toumi-openapi-client-sdk/pom.xml" />
-        <option value="$PROJECT_DIR$/../seedskill/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/../toumira_product/pom.xml" />
+        <option value="$PROJECT_DIR$/../toumira_product/toumira-product-openapi/pom.xml" />
+        <option value="$PROJECT_DIR$/../toumira_product/toumira-product-orm/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">

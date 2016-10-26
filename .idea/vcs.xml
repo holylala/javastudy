@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="VcsDirectoryMappings">
-    <mapping directory="$PROJECT_DIR$/../iframework-iop" vcs="svn" />
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../toumi-cache" vcs="svn" />
-    <mapping directory="$PROJECT_DIR$/../toumi-openapi-client-sdk" vcs="svn" />
-    <mapping directory="$PROJECT_DIR$/../toumira_product" vcs="svn" />
-    <mapping directory="$PROJECT_DIR$/../toumira_product/toumira-product-orm" vcs="svn" />
   </component>
 </project>

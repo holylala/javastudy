@@ -2,20 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/apache-commonslang/apache-commonslang.iml" filepath="$PROJECT_DIR$/apache-commonslang/apache-commonslang.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../iframework-iop/iframework-iop.iml" filepath="$PROJECT_DIR$/../iframework-iop/iframework-iop.iml" />
       <module fileurl="file://$PROJECT_DIR$/javastudy-codejava/javastudy-codejava.iml" filepath="$PROJECT_DIR$/javastudy-codejava/javastudy-codejava.iml" />
       <module fileurl="file://$PROJECT_DIR$/javastudy-datamodel/javastudy-datamodel.iml" filepath="$PROJECT_DIR$/javastudy-datamodel/javastudy-datamodel.iml" />
       <module fileurl="file://$PROJECT_DIR$/javastudy-parent/javastudy-parent.iml" filepath="$PROJECT_DIR$/javastudy-parent/javastudy-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/javastudy-springaction/javastudy-springaction.iml" filepath="$PROJECT_DIR$/javastudy-springaction/javastudy-springaction.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mybatis-3-mybatis-3.2.7/mybatis.iml" filepath="$PROJECT_DIR$/mybatis-3-mybatis-3.2.7/mybatis.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../seedskill/seedskill.iml" filepath="$PROJECT_DIR$/../seedskill/seedskill.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../springmvcpro/springmvcpro.iml" filepath="$PROJECT_DIR$/../springmvcpro/springmvcpro.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../toumi-cache/toumi-cache.iml" filepath="$PROJECT_DIR$/../toumi-cache/toumi-cache.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../toumi-openapi-client-sdk/toumira-client-sdk.iml" filepath="$PROJECT_DIR$/../toumi-openapi-client-sdk/toumira-client-sdk.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../toumira_product/toumira-product-openapi.iml" filepath="$PROJECT_DIR$/../toumira_product/toumira-product-openapi.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../toumira_product/toumira-product-orm.iml" filepath="$PROJECT_DIR$/../toumira_product/toumira-product-orm.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../toumira_product/toumira_product.iml" filepath="$PROJECT_DIR$/../toumira_product/toumira_product.iml" />
     </modules>
   </component>
 </project>
