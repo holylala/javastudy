@@ -6,7 +6,7 @@ package com.huang.work.desinmodel.zhuangshi;
 /**   
  * @Title: PackBodyCreator.java 
  * @Package com.huang.work.desinmodel.zhuangshi 
- * @Description: TODO
+ * @Description: 构造核心数据,但是不包括格式
  * @Copyright： Copyright(c)2015
  * @Company：Bjrun 
  * @author zhenqiong zhenqiong@run.com   
