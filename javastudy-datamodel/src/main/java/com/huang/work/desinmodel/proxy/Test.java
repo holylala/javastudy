@@ -3,6 +3,8 @@
  */
 package com.huang.work.desinmodel.proxy;
 
+import net.sf.cglib.proxy.Enhancer;
+
 import java.lang.reflect.Proxy;
 
 
@@ -17,7 +19,9 @@ public class Test {
 	 */
 	public static void main(String[] args) {
 
-		createJdkProxy();
+		//createJdkProxy();
+
+		createCglibProxy();
 	}
 
 	public static void createJdkProxy() {
@@ -27,6 +31,19 @@ public class Test {
 				new JdkDbQueryHandler()
 				);
 		jdkProxy.request();
+	}
+
+	public static void createCglibProxy() {
+
+		Enhancer enhancer = new Enhancer();
+		//指定切入器 定义代理类逻辑
+		enhancer.setCallback(new CglibDbQueryInterceptor());
+		//指定实现的接口
+		enhancer.setInterfaces(new Class[]{IDBQuery.class});
+		//生成代理类的实例
+		IDBQuery cglibProxy = (IDBQuery)enhancer.create();
+		cglibProxy.request();
+
 	}
 
 	public static void sampleProxy() {

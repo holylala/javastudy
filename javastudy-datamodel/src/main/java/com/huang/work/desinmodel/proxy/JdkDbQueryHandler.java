@@ -19,15 +19,15 @@ public class JdkDbQueryHandler implements InvocationHandler {
 	 * @param method
 	 * @param args
 	 * @return
-	 * @throws Throwable 
+	 * @throws Throwable
 	 * @see java.lang.reflect.InvocationHandler#invoke(java.lang.Object, java.lang.reflect.Method, java.lang.Object[]) 
 	 */
 	@Override
 	public Object invoke(Object proxy, Method method, Object[] args)
 			throws Throwable {
-		
+
 		if (real == null) {
-			real = new DBQuery(); 
+			real = new DBQuery();
 		}
 		
 		return real.request();
