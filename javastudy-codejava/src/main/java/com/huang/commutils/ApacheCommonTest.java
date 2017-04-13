@@ -1,6 +1,12 @@
 package com.huang.commutils;
 
 import org.apache.commons.beanutils.*;
+import org.apache.commons.collections.Bag;
+import org.apache.commons.collections.BidiMap;
+import org.apache.commons.collections.Factory;
+import org.apache.commons.collections.bag.HashBag;
+import org.apache.commons.collections.bidimap.TreeBidiMap;
+import org.apache.commons.collections.list.LazyList;
 import org.apache.commons.lang.RandomStringUtils;
 import org.apache.commons.lang.StringEscapeUtils;
 import org.apache.commons.lang.StringUtils;
@@ -10,8 +16,7 @@ import org.apache.commons.lang.builder.HashCodeBuilder;
 import org.apache.commons.lang.builder.ToStringBuilder;
 import org.apache.commons.lang.mutable.MutableInt;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 /**
  * @author zhenqionghuang@creditease.cn
@@ -90,7 +95,38 @@ public class ApacheCommonTest {
         user.set("address","0","上海");
         user.set("address","1","北京");
 
-
+        //转换器
+        //ConvertUtilsBean() 属性值统一加前缀
     }
+
+    public static void collectionTest() {
+        //可统计重复数据量
+        Bag box = new HashBag(Arrays.asList("red","blue","black","blue"));
+        box.add("blue",3);//新增三个蓝球
+        box.size();//球总数 7
+        box.getCount("blue");//蓝球数量5
+
+        //把一个List包装成一个 lazy 类型 在集合中的元素被访问时才生成
+        List<String> lazy = LazyList.decorate(new ArrayList(), new Factory() {
+            @Override
+            public Object create() {
+                return "A";
+            }
+        });
+
+        String obj = lazy.get(3);
+        lazy.add("No 5 value");
+        lazy.size();
+
+        //双向Map key和value都唯一
+        BidiMap bidiMap = new TreeBidiMap();
+        bidiMap.put("1","one");
+        bidiMap.get("1");
+        bidiMap.get("one");
+
+        bidiMap.removeValue("one");//删除键值对
+    }
+
+
 
 }
