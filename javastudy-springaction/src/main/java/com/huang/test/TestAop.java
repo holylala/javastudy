@@ -26,6 +26,7 @@ public class TestAop extends UnitTestBase {
 	
 	public TestAop() {
 		super("classpath*:spring-aop.xml");
+		//super("com/huang/resource/spring-ioc.xml");
 	}
 	
 	@Test
