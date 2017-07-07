@@ -118,6 +118,8 @@ public class ApacheCommonTest {
         lazy.add("No 5 value");
         lazy.size();
 
+
+
         //双向Map key和value都唯一
         BidiMap bidiMap = new TreeBidiMap();
         bidiMap.put("1","one");
