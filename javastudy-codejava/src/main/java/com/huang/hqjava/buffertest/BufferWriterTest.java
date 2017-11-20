@@ -6,7 +6,7 @@ import java.io.*;
  * @author zhenqionghuang@creditease.cn
  * @version V1.0
  * @Package com.huang.hqjava.buffertest
- * @Description:
+ * @Description: test buffer
  * @date 2017/11/17 18:11
  * @Company: creditease.cn
  */
