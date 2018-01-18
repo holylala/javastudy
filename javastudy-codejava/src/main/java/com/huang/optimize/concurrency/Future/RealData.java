@@ -11,14 +11,25 @@ import java.util.concurrent.Callable;
  * @Company: creditease.cn
  */
 public class RealData implements Callable<String> {
-	/**
-	 * Computes a result, or throws an exception if unable to do so.
-	 *
-	 * @return computed result
-	 * @throws Exception if unable to compute a result
-	 */
+
+	private String para;
+
+	public RealData(String para) {
+		this.para = para;
+	}
+
 	@Override
 	public String call() throws Exception {
-		return null;
+		//真实的业务逻辑 其执行可能很慢
+		StringBuffer sb = new StringBuffer();
+		for (int i = 0; i < 100; i++) {
+			sb.append(para);
+			try {
+				Thread.sleep(100);
+			} catch (InterruptedException e) {
+
+			}
+		}
+		return sb.toString();
 	}
 }
