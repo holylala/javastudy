@@ -10,12 +10,12 @@ import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 
 /**
- * @author zhenqionghuang@creditease.cn
+ * @author zhenqionghuang@a
  * @version V1.0
  * @Package com.huang.ewcode
  * @Description:
  * @date 2016/9/28 18:10
- * @Company: creditease.cn
+ * @Company: a
  */
 public class CreateQrcode {
 

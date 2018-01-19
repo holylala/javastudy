@@ -3,12 +3,12 @@ package com.huang;
 import com.huang.hqjava.staticlass.Person;
 
 /**
- * @author zhenqionghuang@creditease.cn
+ * @author zhenqionghuang@a
  * @version V1.0
  * @Package com.huang
  * @Description:
  * @date 2016/2/1 17:14
- * @Company: creditease.cn
+ * @Company: a
  */
 public class TestPerson {
 

@@ -4,12 +4,12 @@ import java.lang.reflect.ParameterizedType;
 import java.lang.reflect.Type;
 
 /**
- * @author zhenqionghuang@creditease.cn
+ * @author zhenqionghuang@a
  * @version V1.0
  * @Package com.imooc.reflect
  * @Description:
  * @date 2016/11/11 14:22
- * @Company: creditease.cn
+ * @Company: a
  */
 public class ReflectUtils {
 

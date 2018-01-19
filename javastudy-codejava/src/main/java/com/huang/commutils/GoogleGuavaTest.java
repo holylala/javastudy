@@ -9,12 +9,12 @@ import com.google.common.primitives.Ints;
 import java.util.*;
 
 /**
- * @author zhenqionghuang@creditease.cn
+ * @author zhenqionghuang@a
  * @version V1.0
  * @Package com.huang.commutils
  * @Description: google工具集
  * @date 2017/4/7 16:43
- * @Company: creditease.cn
+ * @Company: a
  */
 public class GoogleGuavaTest {
 

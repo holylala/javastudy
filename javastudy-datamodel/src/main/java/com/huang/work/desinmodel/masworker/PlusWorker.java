@@ -1,12 +1,12 @@
 package com.huang.work.desinmodel.masworker;
 
 /**
- * @author zhenqionghuang@creditease.cn
+ * @author zhenqionghuang@a
  * @version V1.0
  * @Package com.huang.work.desinmodel.masworker
  * @Description:
  * @date 2016/2/23 16:35
- * @Company: creditease.cn
+ * @Company: a
  */
 public class PlusWorker extends Worker {
 

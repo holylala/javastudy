@@ -1,12 +1,12 @@
 package com.huang.hqjava.threadstu;
 
 /**
- * @author zhenqionghuang@creditease.cn
+ * @author zhenqionghuang@a
  * @version V1.0
  * @Package com.huang.hqjava.threadstu
  * @Description: 使用线程异常处理器
  * @date 2017/3/30 18:36
- * @Company: creditease.cn
+ * @Company: a
  */
 public class TcpServer implements Runnable {
 

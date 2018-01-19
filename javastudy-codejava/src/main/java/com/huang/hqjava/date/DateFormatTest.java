@@ -4,12 +4,12 @@ import java.text.DateFormat;
 import java.util.Date;
 
 /**
- * @author zhenqionghuang@creditease.cn
+ * @author zhenqionghuang@a
  * @version V1.0
  * @Package com.huang.hqjava.date
  * @Description:
  * @date 2016/7/17 19:47
- * @Company: creditease.cn
+ * @Company: a
  */
 public class DateFormatTest {
 

@@ -9,12 +9,12 @@ import java.security.spec.PKCS8EncodedKeySpec;
 import java.security.spec.X509EncodedKeySpec;
 
 /**
- * @author zhenqionghuang@creditease.cn
+ * @author zhenqionghuang@a
  * @version V1.0
  * @Package com.digitsign
  * @Description: 数字签名 RSA算法
  * @date 2016/7/26 22:56
- * @Company: creditease.cn
+ * @Company: a
  */
 public class RSATest {
 

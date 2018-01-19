@@ -5,12 +5,12 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.FutureTask;
 
 /**
- * @author zhenqionghuang@creditease.cn
+ * @author zhenqionghuang@a
  * @version V1.0
  * @Package com.huang.optimize.concurrency.Future
  * @Description:
  * @date 2018/1/18 17:05
- * @Company: creditease.cn
+ * @Company: a
  */
 public class RunMain {
 

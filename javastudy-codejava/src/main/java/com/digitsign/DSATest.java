@@ -11,12 +11,12 @@ import java.security.spec.PKCS8EncodedKeySpec;
 import java.security.spec.X509EncodedKeySpec;
 
 /**
- * @author zhenqionghuang@creditease.cn
+ * @author zhenqionghuang@a
  * @version V1.0
  * @Package com.digitsign
  * @Description:
  * @date 2016/7/27 23:02
- * @Company: creditease.cn
+ * @Company: a
  */
 public class DSATest {
 

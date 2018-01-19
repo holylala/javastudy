@@ -14,12 +14,12 @@ import java.util.HashMap;
 import java.util.Objects;
 
 /**
- * @author zhenqionghuang@creditease.cn
+ * @author zhenqionghuang@a
  * @version V1.0
  * @Package com.huang.ewcode
  * @Description: 使用zxing生成二维码
  * @date 2016/9/28 12:37
- * @Company: creditease.cn
+ * @Company: a
  */
 public class CreateCodeWithZxing {
 

@@ -19,12 +19,12 @@ import org.apache.commons.lang.mutable.MutableInt;
 import java.util.*;
 
 /**
- * @author zhenqionghuang@creditease.cn
+ * @author zhenqionghuang@a
  * @version V1.0
  * @Package com.huang.commutils
  * @Description:
  * @date 2017/4/10 15:14
- * @Company: creditease.cn
+ * @Company: a
  */
 public class ApacheCommonTest {
 

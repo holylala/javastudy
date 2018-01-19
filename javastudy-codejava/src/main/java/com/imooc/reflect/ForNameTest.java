@@ -1,12 +1,12 @@
 package com.imooc.reflect;
 
 /**
- * @author zhenqionghuang@creditease.cn
+ * @author zhenqionghuang@a
  * @version V1.0
  * @Package com.imooc.reflect
  * @Description:
  * @date 2016/11/10 18:11
- * @Company: creditease.cn
+ * @Company: a
  */
 public class ForNameTest {
 

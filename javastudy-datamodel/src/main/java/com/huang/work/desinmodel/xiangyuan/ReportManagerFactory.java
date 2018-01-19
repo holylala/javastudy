@@ -4,12 +4,12 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @author zhenqionghuang@creditease.cn
+ * @author zhenqionghuang@a
  * @version V1.0
  * @Package com.huang.work.desinmodel.xiangyuan
  * @Description:
  * @date 2016/11/1 16:44
- * @Company: creditease.cn
+ * @Company: a
  */
 public class ReportManagerFactory {
 

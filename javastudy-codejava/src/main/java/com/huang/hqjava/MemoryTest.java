@@ -1,12 +1,12 @@
 package com.huang.hqjava;
 
 /**
- * @author zhenqionghuang@creditease.cn
+ * @author zhenqionghuang@a
  * @version V1.0
  * @Package com.huang.hqjava
  * @Description:
  * @date 2016/7/6 15:49
- * @Company: creditease.cn
+ * @Company: a
  */
 public class MemoryTest {
 

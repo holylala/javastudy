@@ -3,12 +3,12 @@ package com.huang.hqjava.datastrut;
 import java.util.*;
 
 /**
- * @author zhenqionghuang@creditease.cn
+ * @author zhenqionghuang@a
  * @version V1.0
  * @Package com.huang.hqjava.datastrut
  * @Description:
  * @date 2016/4/4 17:35
- * @Company: creditease.cn
+ * @Company: a
  */
 public class ListTest {
     public static void main(String[] args) {

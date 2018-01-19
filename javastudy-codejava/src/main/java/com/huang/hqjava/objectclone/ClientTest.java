@@ -3,12 +3,12 @@ package com.huang.hqjava.objectclone;
 import org.apache.commons.lang.SerializationUtils;
 
 /**
- * @author zhenqionghuang@creditease.cn
+ * @author zhenqionghuang@a
  * @version V1.0
  * @Package com.huang.hqjava.objectclone
  * @Description:
  * @date 2016/3/22 18:27
- * @Company: creditease.cn
+ * @Company: a
  */
 public class ClientTest {
 

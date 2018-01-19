@@ -9,12 +9,12 @@ import java.util.Collections;
 import java.util.List;
 
 /**
- * @author zhenqionghuang@creditease.cn
+ * @author zhenqionghuang@a
  * @version V1.0
  * @Package com.huang.hqjava.datastrut
  * @Description:
  * @date 2016/4/13 19:51
- * @Company: creditease.cn
+ * @Company: a
  */
 public class Employee implements Comparable<Employee> {
 

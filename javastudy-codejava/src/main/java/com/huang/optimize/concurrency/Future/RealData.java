@@ -3,12 +3,12 @@ package com.huang.optimize.concurrency.Future;
 import java.util.concurrent.Callable;
 
 /**
- * @author zhenqionghuang@creditease.cn
+ * @author zhenqionghuang@a
  * @version V1.0
  * @Package com.huang.optimize.concurrency.Future
  * @Description:
  * @date 2017/12/21 18:28
- * @Company: creditease.cn
+ * @Company: a
  */
 public class RealData implements Callable<String> {
 

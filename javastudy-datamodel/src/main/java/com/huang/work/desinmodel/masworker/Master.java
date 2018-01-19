@@ -7,12 +7,12 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentLinkedQueue;
 
 /**
- * @author zhenqionghuang@creditease.cn
+ * @author zhenqionghuang@a
  * @version V1.0
  * @Package com.huang.work.desinmodel.masworker
  * @Description:
  * @date 2016/2/23 15:56
- * @Company: creditease.cn
+ * @Company: a
  */
 public class Master {
 

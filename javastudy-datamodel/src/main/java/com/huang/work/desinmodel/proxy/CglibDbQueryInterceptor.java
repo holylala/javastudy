@@ -6,12 +6,12 @@ import net.sf.cglib.proxy.MethodProxy;
 import java.lang.reflect.Method;
 
 /**
- * @author zhenqionghuang@creditease.cn
+ * @author zhenqionghuang@a
  * @version V1.0
  * @Package com.huang.work.desinmodel.proxy
  * @Description: cglib 实现动态代理
  * @date 2016/10/27 17:59
- * @Company: creditease.cn
+ * @Company: a
  */
 public class CglibDbQueryInterceptor implements MethodInterceptor {
 

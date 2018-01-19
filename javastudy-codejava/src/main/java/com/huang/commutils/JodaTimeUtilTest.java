@@ -10,12 +10,12 @@ import java.util.Date;
 import java.util.Locale;
 
 /**
- * @author zhenqionghuang@creditease.cn
+ * @author zhenqionghuang@a
  * @version V1.0
  * @Package com.huang.commutils
  * @Description:
  * @date 2017/4/12 14:01
- * @Company: creditease.cn
+ * @Company: a
  */
 public class JodaTimeUtilTest {
 

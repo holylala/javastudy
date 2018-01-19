@@ -8,12 +8,12 @@ import java.io.File;
 import java.io.IOException;
 
 /**
- * @author zhenqionghuang@creditease.cn
+ * @author zhenqionghuang@a
  * @version V1.0
  * @Package com.huang.ewcode
  * @Description:
  * @date 2016/9/28 18:39
- * @Company: creditease.cn
+ * @Company: a
  */
 public class ReadQrcode {
 

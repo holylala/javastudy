@@ -6,12 +6,12 @@ import java.util.Comparator;
 import java.util.Locale;
 
 /**
- * @author zhenqionghuang@creditease.cn
+ * @author zhenqionghuang@a
  * @version V1.0
  * @Package com.huang.hqjava
  * @Description:
  * @date 2016/3/30 15:36
- * @Company: creditease.cn
+ * @Company: a
  */
 public class SortWithChinese {
 

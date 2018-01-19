@@ -6,12 +6,12 @@ import sun.misc.BASE64Encoder;
 import java.io.IOException;
 
 /**
- * @author zhenqionghuang@creditease.cn
+ * @author zhenqionghuang@a
  * @version V1.0
  * @Package com.digitsign
  * @Description:
  * @date 2016/8/21 22:56
- * @Company: creditease.cn
+ * @Company: a
  */
 public class Base64Test {
 

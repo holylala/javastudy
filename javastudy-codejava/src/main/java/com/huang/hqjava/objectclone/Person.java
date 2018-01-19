@@ -3,12 +3,12 @@ package com.huang.hqjava.objectclone;
 import java.io.Serializable;
 
 /**
- * @author zhenqionghuang@creditease.cn
+ * @author zhenqionghuang@a
  * @version V1.0
  * @Package com.huang.hqjava.objectclone
  * @Description:
  * @date 2016/3/22 18:20
- * @Company: creditease.cn
+ * @Company: a
  */
 public class Person implements Cloneable,Serializable {
 

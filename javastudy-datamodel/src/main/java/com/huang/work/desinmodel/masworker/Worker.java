@@ -4,12 +4,12 @@ import java.util.Map;
 import java.util.Queue;
 
 /**
- * @author zhenqionghuang@creditease.cn
+ * @author zhenqionghuang@a
  * @version V1.0
  * @Package com.huang.work.desinmodel.masworker
  * @Description:
  * @date 2016/2/23 16:20
- * @Company: creditease.cn
+ * @Company: a
  */
 public class Worker implements  Runnable {
 

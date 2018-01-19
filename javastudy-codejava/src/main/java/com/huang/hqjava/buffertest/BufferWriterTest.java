@@ -3,12 +3,12 @@ package com.huang.hqjava.buffertest;
 import java.io.*;
 
 /**
- * @author zhenqionghuang@creditease.cn
+ * @author zhenqionghuang@a
  * @version V1.0
  * @Package com.huang.hqjava.buffertest
  * @Description: test buffer
  * @date 2017/11/17 18:11
- * @Company: creditease.cn
+ * @Company: a
  */
 public class BufferWriterTest {
 

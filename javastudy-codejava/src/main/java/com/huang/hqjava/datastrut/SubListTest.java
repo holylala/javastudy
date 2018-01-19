@@ -5,12 +5,12 @@ import java.util.Collections;
 import java.util.List;
 
 /**
- * @author zhenqionghuang@creditease.cn
+ * @author zhenqionghuang@a
  * @version V1.0
  * @Package com.huang.hqjava.datastrut
  * @Description:
  * @date 2016/4/6 16:37
- * @Company: creditease.cn
+ * @Company: a
  */
 public class SubListTest {
 

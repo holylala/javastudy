@@ -12,12 +12,12 @@ import java.io.File;
 import java.util.HashMap;
 
 /**
- * @author zhenqionghuang@creditease.cn
+ * @author zhenqionghuang@a
  * @version V1.0
  * @Package com.huang.ewcode
  * @Description:
  * @date 2016/9/28 16:49
- * @Company: creditease.cn
+ * @Company: a
  */
 public class ReadQrcodeWithZxing {
 

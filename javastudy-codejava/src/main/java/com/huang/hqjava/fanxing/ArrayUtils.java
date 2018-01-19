@@ -6,12 +6,12 @@ import java.util.Collections;
 import java.util.List;
 
 /**
- * @author zhenqionghuang@creditease.cn
+ * @author zhenqionghuang@a
  * @version V1.0
  * @Package com.huang.hqjava.fanxing
  * @Description:
  * @date 2016/11/2 17:48
- * @Company: creditease.cn
+ * @Company: a
  */
 public class ArrayUtils {
 

@@ -1,12 +1,12 @@
 package com.huang.hqjava;
 
 /**
- * @author zhenqionghuang@creditease.cn
+ * @author zhenqionghuang@a
  * @version V1.0
  * @Package com.huang.hqjava
  * @Description:
  * @date 2016/3/30 16:38
- * @Company: creditease.cn
+ * @Company: a
  */
 
 

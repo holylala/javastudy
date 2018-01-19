@@ -4,12 +4,12 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * @author zhenqionghuang@creditease.cn
+ * @author zhenqionghuang@a
  * @version V1.0
  * @Package com.huang.hqjava.datastrut
  * @Description:
  * @date 2016/4/1 17:03
- * @Company: creditease.cn
+ * @Company: a
  */
 public class ArraysTest {
 

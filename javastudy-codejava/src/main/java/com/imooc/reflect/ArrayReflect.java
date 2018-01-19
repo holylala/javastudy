@@ -3,12 +3,12 @@ package com.imooc.reflect;
 import java.lang.reflect.Array;
 
 /**
- * @author zhenqionghuang@creditease.cn
+ * @author zhenqionghuang@a
  * @version V1.0
  * @Package com.imooc.reflect
  * @Description: 动态创建数组
  * @date 2016/11/11 11:43
- * @Company: creditease.cn
+ * @Company: a
  */
 public class ArrayReflect {
 

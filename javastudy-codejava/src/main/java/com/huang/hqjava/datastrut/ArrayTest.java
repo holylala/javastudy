@@ -5,12 +5,12 @@ import java.util.List;
 import java.util.TreeSet;
 
 /**
- * @author zhenqionghuang@creditease.cn
+ * @author zhenqionghuang@a
  * @version V1.0
  * @Package com.huang.hqjava.datastrut
  * @Description:
  * @date 2016/3/31 11:26
- * @Company: creditease.cn
+ * @Company: a
  */
 public class ArrayTest {
 

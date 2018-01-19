@@ -4,12 +4,12 @@ import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
 /**
- * @author zhenqionghuang@creditease.cn
+ * @author zhenqionghuang@a
  * @version V1.0
  * @Package com.imooc.reflect
  * @Description:
  * @date 2016/11/10 17:25
- * @Company: creditease.cn
+ * @Company: a
  */
 public class ReflectTestOne {
 

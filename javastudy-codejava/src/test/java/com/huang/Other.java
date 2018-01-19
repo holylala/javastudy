@@ -4,12 +4,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author zhenqionghuang@creditease.cn
+ * @author zhenqionghuang@a
  * @version V1.0
  * @Package com.huang
  * @Description:
  * @date 2016/4/19 16:58
- * @Company: creditease.cn
+ * @Company: a
  */
 public class Other {
 

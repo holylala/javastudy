@@ -8,12 +8,12 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 
 /**
- * @author zhenqionghuang@creditease.cn
+ * @author zhenqionghuang@a
  * @version V1.0
  * @Package com.huang.hqjava.iodesign
  * @Description:
  * @date 2016/8/21 21:41
- * @Company: creditease.cn
+ * @Company: a
  */
 public class ReaderInputFromFile {
 

@@ -3,12 +3,12 @@ package com.huang.hqjava.threadstu;
 import java.util.concurrent.*;
 
 /**
- * @author zhenqionghuang@creditease.cn
+ * @author zhenqionghuang@a
  * @version V1.0
  * @Package com.huang.hqjava.threadstu
  * @Description:
  * @date 2017/3/31 15:07
- * @Company: creditease.cn
+ * @Company: a
  */
 public class TaxCalculator implements Callable<Integer> {
 

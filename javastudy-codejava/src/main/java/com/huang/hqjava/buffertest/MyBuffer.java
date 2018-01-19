@@ -3,12 +3,12 @@ package com.huang.hqjava.buffertest;
 import java.nio.ByteBuffer;
 
 /**
- * @author zhenqionghuang@creditease.cn
+ * @author zhenqionghuang@a
  * @version V1.0
  * @Package com.huang.hqjava.buffertest
  * @Description:
  * @date 2017/12/20 18:17
- * @Company: creditease.cn
+ * @Company: a
  */
 public class MyBuffer {
 
