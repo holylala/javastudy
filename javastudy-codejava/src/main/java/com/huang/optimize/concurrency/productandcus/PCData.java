@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.huang.work.desinmodel.thread;
+package com.huang.optimize.concurrency.productandcus;
 
 /**   
  * @Title: PCData.java 

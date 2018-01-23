@@ -1,12 +1,11 @@
 /**
  * 
  */
-package com.huang.work.desinmodel.thread;
+package com.huang.optimize.concurrency.productandcus;
 
 import java.text.MessageFormat;
 import java.util.Random;
 import java.util.concurrent.BlockingQueue;
-import java.util.concurrent.TimeUnit;
 
 /**   
  * @Title: Consumer.java 

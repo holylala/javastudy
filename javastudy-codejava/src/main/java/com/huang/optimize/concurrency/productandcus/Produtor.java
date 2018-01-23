@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.huang.work.desinmodel.thread;
+package com.huang.optimize.concurrency.productandcus;
 
 import java.util.Random;
 import java.util.concurrent.BlockingQueue;
@@ -11,7 +11,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 /**   
  * @Title: Produtor.java 
  * @Package com.huang.work.desinmodel.thread 
- * @Description: TODO
+ * @Description:
  * @Copyright： Copyright(c)2015
  * @Company：Bjrun 
  * @author zhenqiong zhenqiong@run.com   
@@ -22,7 +22,7 @@ public class Produtor implements Runnable {
 
 	private volatile boolean isRunning = true;
 	private BlockingQueue<PCData> queue;
-	private static AtomicInteger count = new AtomicInteger();
+	private static AtomicInteger count = new AtomicInteger();//总数 原子操作
 	private static final int SLEEPTIME = 1000;
 	
 	public Produtor(BlockingQueue<PCData> queue) {

@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.huang.work.desinmodel.thread;
+package com.huang.optimize.concurrency.productandcus;
 
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.ExecutorService;
