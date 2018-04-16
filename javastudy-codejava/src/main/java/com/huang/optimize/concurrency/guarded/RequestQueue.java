@@ -19,7 +19,7 @@ public class RequestQueue {
             try {
                 wait(); //等待直到有新的Request加入
             } catch (InterruptedException e) {
-
+                e.printStackTrace();
             }
         }
         return (Request)queue.remove();//返回队列中的第一个请求

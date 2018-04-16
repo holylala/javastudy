@@ -8,16 +8,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.LinkedBlockingQueue;
 
-/**   
- * @Title: ProConTest.java 
- * @Package com.huang.work.desinmodel.thread 
- * @Description: TODO
- * @Copyright£º Copyright(c)2015
- * @Company£ºBjrun 
- * @author zhenqiong zhenqiong@run.com   
- * @date 2015-11-27 ÏÂÎç03:36:05 
- * @version V1.0   
- */
+
 public class ProConTest {
 
 	/**
@@ -55,8 +46,8 @@ public class ProConTest {
 		Thread.sleep(3000);
 		
 		service.shutdown();
-		
-		
+
+		System.out.println("shutdown");
 	}
 
 }

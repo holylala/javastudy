@@ -36,7 +36,7 @@ public class RunMain {
 
 		//如果此时RealData 的 call() 方法没有执行完成, 则依然会等待
 		System.out.println("获取最后的数据:>>>"+futureTask.get());
-
+		executorService.shutdown();
 	}
 
 }
