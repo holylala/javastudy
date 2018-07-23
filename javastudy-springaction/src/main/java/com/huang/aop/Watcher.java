@@ -12,7 +12,7 @@ import org.aspectj.lang.annotation.*;
  * @Description:
  * @Copyright： Copyright(c)2015
  * @Company：Bjrun 
- * @author zhenqiong zhenqiong@run.com   
+ * @author zhenqiong zhenqiong@
  * @date 2015-12-22 下午04:46:27 
  * @version V1.0   
  */

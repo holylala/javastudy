@@ -3,11 +3,7 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xmlns:aop="http://www.springframework.org/schema/aop"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
-	http://www.springframework.org/schema/beans/spring-beans-3.2.xsd 
-
-
-
-
+	http://www.springframework.org/schema/beans/spring-beans-3.2.xsd
     http://www.springframework.org/schema/aop   
     http://www.springframework.org/schema/aop/spring-aop-3.2.xsd">
 	
@@ -19,7 +15,8 @@
 	-->
 	<bean id="getminder" class="com.huang.aop.GetMinder" ></bean>
 	<bean id="girl" class="com.huang.aop.Girl" ></bean>
-	
+
+	<!--将在Spring上下文中创建一个代理类 自动代理一些类 从而实现注解配置 -->
 	<aop:aspectj-autoproxy />
 	
 	

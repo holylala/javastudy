@@ -14,7 +14,7 @@ import org.junit.runners.BlockJUnit4ClassRunner;
  * @Description: 
  * @Copyright： Copyright(c)2015
  * @Company：Bjrun 
- * @author zhenqiong zhenqiong@run.com   
+ * @author zhenqiong zhenqiong@
  * @date 2015-12-4 下午03:51:53 
  * @version V1.0   
  */
@@ -28,9 +28,10 @@ public class TestBean extends UnitTestBase {
 	
 	@Test
 	public void test1() {
-		Juggler huang = super.getBean("huang");
+		Juggler huang = super.getBean("july");//huang
 		huang.performer();
 	}
+
 	@Test
 	public void test2() {
 		PeticJuggler pj = super.getBean("peticJuggler");

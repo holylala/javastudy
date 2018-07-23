@@ -17,7 +17,7 @@ import org.junit.runners.BlockJUnit4ClassRunner;
  * @Description: 
  * @Copyright： Copyright(c)2015
  * @Company：Bjrun 
- * @author zhenqiong zhenqiong@run.com   
+ * @author zhenqiong zhenqiong@
  * @date 2015-12-4 下午03:51:53 
  * @version V1.0   
  */
@@ -42,8 +42,8 @@ public class TestAop extends UnitTestBase {
 		Thinker girl = super.getBean("girl");
 		girl.thinkSometing("晚上我想去看电影....");
 		
-		MindReader getminder = super.getBean("getminder");
-		System.out.println(getminder.getMindInfos());
+//		MindReader getminder = super.getBean("getminder");
+//		System.out.println(getminder.getMindInfos());
 	}
 	
 }

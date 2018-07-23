@@ -9,7 +9,7 @@ package com.huang.autoiocmore;
  * @Description: TODO
  * @Copyright： Copyright(c)2015
  * @Company：Bjrun 
- * @author zhenqiong zhenqiong@run.com   
+ * @author zhenqiong zhenqiong@
  * @date 2015-12-9 上午11:26:08 
  * @version V1.0   
  */

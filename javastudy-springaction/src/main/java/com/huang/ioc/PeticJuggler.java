@@ -9,7 +9,7 @@ package com.huang.ioc;
  * @Description: 会诗歌的杂技师
  * @Copyright： Copyright(c)2015
  * @Company：Bjrun 
- * @author zhenqiong zhenqiong@run.com   
+ * @author zhenqiong zhenqiong@
  * @date 2015-12-4 下午04:30:49 
  * @version V1.0   
  */

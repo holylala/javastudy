@@ -13,7 +13,7 @@ import org.aspectj.lang.annotation.Pointcut;
  * @Description: 
  * @Copyright： Copyright(c)2015
  * @Company：Bjrun 
- * @author zhenqiong zhenqiong@run.com   
+ * @author zhenqiong zhenqiong@
  * @date 2015-12-23 下午05:23:04 
  * @version V1.0   
  */
@@ -36,7 +36,7 @@ public class GetMinder implements MindReader {
 	 */
 	@Before("thinkinga(mindinfos)")
 	public void getOnesMind(String mindinfos) {
-		System.out.println("注解 GetMinder :获知某个人在想什么.......");
+		System.out.println("注解 GetMinder :获知某个人在想什么......."+mindinfos);
 		this.mindinfos = mindinfos;
 	}
 

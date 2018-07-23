@@ -7,15 +7,16 @@
         default-init-method= "init"
         default-destroy-method= "destroy"
  >
-    
+    <!-- 基于XML文件的 sping bean 装配 -->
+
     <!-- 使用默认的构造函数创建bean -->   
 	<bean id="july" class="com.huang.ioc.Juggler"></bean>
-	
 	 <!-- 使用带参的构造函数创建bean -->   
 	<bean id="huang" class="com.huang.ioc.Juggler">
 		<constructor-arg value="15" />
  	</bean>
- 	
+
+
  	<bean id="sonnet29" class="com.huang.ioc.Sonnet29" ></bean>
  	<!-- 使用带参的构造函数创建bean,并包含一个bean的引用 -->
  	<bean id="peticJuggler" class="com.huang.ioc.PeticJuggler" >
@@ -29,9 +30,10 @@
  	<!-- prototype ：每次都返回不同的实例  singleton : 每次都返回同一个实例  request,session,global session-->
  	<bean id="ticket" class="com.huang.ioc.Ticket" scope="prototype" ></bean>
  	
- 	<!-- 调用初始后执行的方法 和 销毁后执行的方法  如果定义了init-method destroy-method 则默认的init destroy不执行 -->
+ 	<!-- 调用初始后执行的方法 和 销毁后执行的方法  如果定义了init-method destroy-method 则默认的init destroy不执行(最上面那个全局定义) -->
  	<bean id="auditorium" class="com.huang.ioc.Auditorium" init-method="turnOnLights" destroy-method="turnOffLights" ></bean>
-	
+
+
 	<!-- 通过setter方法 设置bean的属性值 面向接口编程  Jita bean可复用  -->
 	<bean id="jita"  class="com.huang.ioc.Jita" ></bean>
 	<bean id="kenny" class="com.huang.ioc.Instrumentalist" >
@@ -45,10 +47,12 @@
 			<bean class="com.huang.ioc.Jita" ></bean>
 		</property>
 	</bean>
+
 	<!-- 使用p命名空间设置属性值 -->
 	<bean id="kenny2" class="com.huang.ioc.Instrumentalist" p:song = " I Love You2" p:instrument-ref = "jita">
 	</bean>
-	
+
+
 	<bean id="piano"  class="com.huang.ioc.Piano" ></bean>
 	<!-- 集合属性的设值  还可以装配property的值  null值 -->
 	<bean id="onemanband" class="com.huang.ioc.OneManBand" >

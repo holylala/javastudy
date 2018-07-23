@@ -9,7 +9,7 @@ package com.huang.ioc;
  * @Description: 表演接口
  * @Copyright： Copyright(c)2015
  * @Company：Bjrun 
- * @author zhenqiong zhenqiong@run.com   
+ * @author zhenqiong zhenqiong
  * @date 2015-12-4 下午03:27:59 
  * @version V1.0   
  */

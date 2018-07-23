@@ -13,7 +13,7 @@ import org.springframework.stereotype.Component;
  * @Description: 
  * @Copyright： Copyright(c)2015
  * @Company：Bjrun 
- * @author zhenqiong zhenqiong@run.com   
+ * @author zhenqiong zhenqiong@
  * @date 2015-12-9 上午11:28:17 
  * @version V1.0   
  */

@@ -12,7 +12,7 @@ import java.util.Map;
  * @Description: 集合属性的设值
  * @Copyright： Copyright(c)2015
  * @Company：Bjrun 
- * @author zhenqiong zhenqiong@run.com   
+ * @author zhenqiong zhenqiong@
  * @date 2015-12-5 下午02:51:46 
  * @version V1.0   
  */

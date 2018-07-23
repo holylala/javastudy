@@ -17,7 +17,7 @@ import org.junit.runners.BlockJUnit4ClassRunner;
  * @Description: 
  * @Copyright： Copyright(c)2015
  * @Company：Bjrun 
- * @author zhenqiong zhenqiong@run.com   
+ * @author zhenqiong zhenqiong@
  * @date 2015-12-4 下午03:51:53 
  * @version V1.0   
  */
