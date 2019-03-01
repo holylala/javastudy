@@ -6,7 +6,7 @@ package com.huang.ioc;
 /**   
  * @Title: Stage.java 
  * @Package com.huang.ioc 
- * @Description: TODO
+ * @Description:
  * @Copyright： Copyright(c)2015
  * @Company：Bjrun 
  * @author zhenqiong zhenqiong@
@@ -19,11 +19,11 @@ public class Stage {
 		System.out.println("单例类创建了......");
 	}
 	
-	private static class StageSingletonHolder {
+	private static class StageSingletonHolder { //延迟加载实例
 		static Stage st = new Stage();
 	}
 	
-	public static Stage getInstance() {
+	public static Stage getInstance() { //返回实例
 		return StageSingletonHolder.st;
 	}
 }
