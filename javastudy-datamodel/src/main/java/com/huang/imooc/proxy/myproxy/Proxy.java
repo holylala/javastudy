@@ -11,6 +11,15 @@ import javax.tools.JavaCompiler.CompilationTask;
 
 import org.apache.commons.io.FileUtils;
 
+/**
+ * 动态代理实现思路
+ *
+ * 实现功能: 通过Proxy的newProxyInstance返回代理对象
+ * 1.声明一段源码(动态产生代理)
+ * 2.编译源码(JDK Compiler API) 产生新的类(代理类）
+ * 3.将这个类load到内存当中,产生一个新的对象(代理对象)
+ * 4.return 代理对象
+ */
 public class Proxy {
 
     @SuppressWarnings("unchecked")
@@ -39,26 +48,26 @@ public class Proxy {
                         "  private InvocationHandler h;" + rt+
                         methodStr + rt +
                         "}" ;
-        //�����������java�ļ� System.getProperty("user.dir") +
+        //产生代理类的java文件 System.getProperty("user.dir") +  把Str生成到bin目录中的文件
         String filename = "C:/ideaworkpalce/javastudy/javastudy-datamodel/target/classes/com/huang/imooc/proxy/myproxy/$Proxy0.java";
         File file = new File(filename);
         FileUtils.writeStringToFile(file, str);
 
-        //����
-        //�õ�������
+        //编译
+        //拿到编译器
         JavaCompiler complier = ToolProvider.getSystemJavaCompiler();
-        //�ļ�������
+        //文件管理者
         StandardJavaFileManager fileMgr =
                 complier.getStandardFileManager(null, null, null);
-        //��ȡ�ļ�
+        //获取文件
         Iterable units = fileMgr.getJavaFileObjects(filename);
-        //��������
+        //编译任务
         CompilationTask t = complier.getTask(null, fileMgr, null, null, null, units);
-        //���б���
+        //进行编译
         t.call();
         fileMgr.close();
 
-        //load ���ڴ�
+        //load 到内存
         ClassLoader cl = ClassLoader.getSystemClassLoader();
         Class c = cl.loadClass("com.huang.imooc.proxy.myproxy.$Proxy0");
 
