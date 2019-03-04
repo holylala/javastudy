@@ -24,7 +24,8 @@ public class Test {
 		 */
 		Moveable m = (Moveable)Proxy.newProxyInstance(cls.getClassLoader(),
 				cls.getInterfaces(), h);
-		m.move();
+		//m.move();
+		//m.moveWithName("BMW");
 	}
 
 }

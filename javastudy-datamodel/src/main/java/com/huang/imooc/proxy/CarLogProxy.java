@@ -16,4 +16,9 @@ public class CarLogProxy implements Moveable {
 		System.out.println("日志结束....");
 	}
 
+	//@Override
+	public String moveWithName(String branName) {
+		return null;
+	}
+
 }

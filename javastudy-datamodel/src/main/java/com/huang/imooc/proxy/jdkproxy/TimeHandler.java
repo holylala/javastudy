@@ -27,7 +27,8 @@ public class TimeHandler implements InvocationHandler {
 			throws Throwable {
 		long starttime = System.currentTimeMillis();
 		System.out.println("汽车开始行驶....");
-		method.invoke(target);
+		Object methResult = method.invoke(target,args);
+		System.out.println("get target method result:>>"+methResult);
 		long endtime = System.currentTimeMillis();
 		System.out.println("汽车结束行驶....  汽车行驶时间："
 				+ (endtime - starttime) + "毫秒！");

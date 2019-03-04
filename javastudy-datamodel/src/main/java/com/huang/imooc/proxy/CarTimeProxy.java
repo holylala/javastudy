@@ -20,4 +20,9 @@ public class CarTimeProxy implements Moveable {
 				+ (endtime - starttime) + "毫秒！");
 	}
 
+	//@Override
+	public String moveWithName(String branName) {
+		return null;
+	}
+
 }

@@ -11,5 +11,6 @@ import java.lang.reflect.Method;
  * @Company:
  */
 public interface InvocationHandler {
+    //有参数 可以设置传递参数
     public void invoke(Object o,Method m);
 }

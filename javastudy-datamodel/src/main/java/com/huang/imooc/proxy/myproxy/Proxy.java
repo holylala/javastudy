@@ -12,6 +12,7 @@ import javax.tools.JavaCompiler.CompilationTask;
 import org.apache.commons.io.FileUtils;
 
 /**
+ * 模拟 JDK 动态代理实现
  * 动态代理实现思路
  *
  * 实现功能: 通过Proxy的newProxyInstance返回代理对象
@@ -49,7 +50,8 @@ public class Proxy {
                         methodStr + rt +
                         "}" ;
         //产生代理类的java文件 System.getProperty("user.dir") +  把Str生成到bin目录中的文件
-        String filename = "C:/ideaworkpalce/javastudy/javastudy-datamodel/target/classes/com/huang/imooc/proxy/myproxy/$Proxy0.java";
+        //String filename = "C:/ideaworkpalce/javastudy/javastudy-datamodel/target/classes/com/huang/imooc/proxy/myproxy/$Proxy0.java";
+        String filename = "D:/persgitpro/javastudy/javastudy-datamodel/target/classes/com/huang/imooc/proxy/myproxy/$Proxy0.java";
         File file = new File(filename);
         FileUtils.writeStringToFile(file, str);
 
