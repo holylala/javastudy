@@ -1,4 +1,4 @@
-package com.threadesignbook;
+package com.threadesignbook.syncbasic2;
 
 /**
  * @author huangzhenqiong@sina.cn
