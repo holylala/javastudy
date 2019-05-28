@@ -15,9 +15,9 @@ public class ListTest {
 
         //listall();
         //retainAll();
-        //removeAll();
+        removeAll();
         //listallonly();
-        shuffe();
+        //shuffe();
 //        int stuNum = 80;
 //        List<Integer> sores = new ArrayList<Integer>(stuNum);
 //        for (int i = 0; i < stuNum ; i++) {
@@ -82,8 +82,8 @@ public class ListTest {
         list2.add("C");
         list2.add("D");
 
-        list1.removeAll(list2);
-        System.out.println(list1); // [A, B]
+        list2.removeAll(list1);
+        System.out.println(list2); // [D]
     }
 
     //无重复的并集
